@@ -6,8 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("data/tarantino.csv")
-
+df = pd.read_csv("tarantino.csv")
 # Title
 st.title("Tarantino Movies Dashboard")
 
